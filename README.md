@@ -128,6 +128,10 @@ To execute a script, use:
 ```bash
 npm run <script-name>
 ```
+## Demo Video
+
+[![Watch the video](https://cdn.loom.com/sessions/thumbnails/3ea9113c79b3450fa50ccd88b3893885-with-play.gif)](https://www.loom.com/share/3ea9113c79b3450fa50ccd88b3893885?sid=178ef821-d8fc-47b0-968c-ad888633a2c0)
+
 
 ## Folder Structure
 ### Frontend 
@@ -254,13 +258,18 @@ export default tseslint.config({
 ## Screenshots
 
    ### Profit and Loss Report 
-   ![image](https://github.com/user-attachments/assets/bab03726-9bfe-4a53-bdab-dd4947928272)
-   ![image](https://github.com/user-attachments/assets/4da64ed4-050f-40b7-a09b-45640bc63f5b)
+   ![image](https://github.com/user-attachments/assets/d89a65de-2d50-4004-b96d-17637d58271d)
+
+   ![image](https://github.com/user-attachments/assets/f9055e38-cc90-4df7-a582-0055c93f54aa)
+   
    ![image](https://github.com/user-attachments/assets/b389f47c-269b-41e4-94c4-5fe7f98fb125)
 
+
    ### Balance Sheet
-   ![image](https://github.com/user-attachments/assets/72b66a7e-55dc-4219-b36c-17af9aba1454)
-   ![image](https://github.com/user-attachments/assets/b5686182-f087-4ea7-8ed5-4547efba09aa)
+   ![image](https://github.com/user-attachments/assets/d2b554c7-2008-4158-8660-da51a87a48d4)
+   
+   ![image](https://github.com/user-attachments/assets/0698dbf9-b8fe-4d26-a165-848865e68e85)
+
    ![image](https://github.com/user-attachments/assets/81f6477b-64dd-4265-8cdd-4da8bf5b4f06)
 
 
