@@ -13,6 +13,7 @@ The **Profit-Loss Dashboard** is a React-based web application built with Vite a
 - 🌐 **API Integration using Axios**  
 - 🔥 **React Query for State Management**  
 - 🎨 **Styled with Tailwind CSS**  
+- 🎨 **Component Based Routing with React Router DOM**  
 - 🔔 **Notifications using React-Hot-Toast**
 
 ## Tech Stack
@@ -21,9 +22,21 @@ The **Profit-Loss Dashboard** is a React-based web application built with Vite a
 - **State Management**: React-Tanstack-Query  
 - **API Calls**: Axios  
 - **Notifications**: React-Hot-Toast  
-- **Linting & Formatting**: ESLint  
+- **Linting & Formatting**: ESLint
+- **Routing**: React Router DOM
 - **Server**: Python FastAPI
 
+## Frontend Routes
+
+This project uses **React Router** for navigation. Below are the available frontend routes and their corresponding components:
+
+### 1. `/` - Profit and Loss Report
+   - **Component:** `ProfileLossReport`
+   - **Description:** This route displays the **Profit and Loss Report**, showing financial data such as income, expenses, and net profit/loss.
+
+### 2. `/balance-sheet` - Balance Sheet
+   - **Component:** `BalanceSheet`
+   - **Description:** This route provides a detailed **Balance Sheet**, including assets, liabilities, and equity for financial analysis.
 
 
 ## Frontend Project Setup
