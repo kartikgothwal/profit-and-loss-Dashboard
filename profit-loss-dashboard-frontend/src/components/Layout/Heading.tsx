@@ -12,8 +12,23 @@ const Heading: ({
 }: IHeadingProps): JSX.Element => {
   return (
     <div className="flex gap-4 my-2 justify-between">
-      <h1 className="text-4xl font-bold text-blue-600 mb-4">{title}</h1>
-      <Button Text={ButtonText} onClick={ButtonClick} />
+      <div className="flex flex-col">
+        <h1 className="text-4xl font-bold text-blue-600 mb-4">{title}</h1>
+        <Button
+          Text={ButtonText}
+          onClick={ButtonClick}
+          className={" h-[3rem]"}
+        />
+      </div>
+      <div>
+        <h3 className="text-xl">Made By Kartik Gothwal</h3>
+        <a
+          href="https://kartik-gothwal.vercel.app/"
+          className="text-blue-500 underline hover:text-blue-300 text-lg"
+        >
+          Porfolio Link
+        </a>
+      </div>
     </div>
   );
 };

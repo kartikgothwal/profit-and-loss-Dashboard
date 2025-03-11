@@ -46,4 +46,5 @@ export interface IHeadingProps {
 export interface IButtonProps{
   onClick: () => void;
   Text: string;
+  className: string;
 }
