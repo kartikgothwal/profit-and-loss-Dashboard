@@ -253,11 +253,20 @@ export default tseslint.config({
 
 ## Screenshots
 
-![App Screenshot](https://github.com/user-attachments/assets/8d5f88a5-7998-4664-97c5-87ccb5d83f2d)
+   ### Profit and Loss Report 
+   ![image](https://github.com/user-attachments/assets/bab03726-9bfe-4a53-bdab-dd4947928272)
+   ![image](https://github.com/user-attachments/assets/4da64ed4-050f-40b7-a09b-45640bc63f5b)
+   ![image](https://github.com/user-attachments/assets/b389f47c-269b-41e4-94c4-5fe7f98fb125)
 
-![image](https://github.com/user-attachments/assets/ceeae267-6dd1-4c00-b6ad-3ee09fbe0d26)
+   ### Balance Sheet
+   ![image](https://github.com/user-attachments/assets/72b66a7e-55dc-4219-b36c-17af9aba1454)
+   ![image](https://github.com/user-attachments/assets/b5686182-f087-4ea7-8ed5-4547efba09aa)
+   ![image](https://github.com/user-attachments/assets/81f6477b-64dd-4265-8cdd-4da8bf5b4f06)
 
-![Network calls Screenshot](https://github.com/user-attachments/assets/683bc4d1-5556-4189-8644-51b303dac450)
+
+
+
+
 
 
 
