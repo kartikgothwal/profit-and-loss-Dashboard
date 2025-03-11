@@ -26,6 +26,11 @@ The **Profit-Loss Dashboard** is a React-based web application built with Vite a
 - **Routing**: React Router DOM
 - **Server**: Python FastAPI
 
+## Demo Video
+
+[Click to Watch the Demo Video](https://www.loom.com/share/3ea9113c79b3450fa50ccd88b3893885?sid=178ef821-d8fc-47b0-968c-ad888633a2c0)
+
+
 ## Frontend Routes
 
 This project uses **React Router** for navigation. Below are the available frontend routes and their corresponding components:
@@ -128,9 +133,8 @@ To execute a script, use:
 ```bash
 npm run <script-name>
 ```
-## Demo Video
 
-[![Watch the video](https://cdn.loom.com/sessions/thumbnails/3ea9113c79b3450fa50ccd88b3893885-with-play.gif)](https://www.loom.com/share/3ea9113c79b3450fa50ccd88b3893885?sid=178ef821-d8fc-47b0-968c-ad888633a2c0)
+
 
 
 ## Folder Structure
