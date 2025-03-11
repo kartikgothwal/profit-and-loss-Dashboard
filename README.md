@@ -241,6 +241,9 @@ export default tseslint.config({
 ## Screenshots
 
 ![App Screenshot](https://github.com/user-attachments/assets/8d5f88a5-7998-4664-97c5-87ccb5d83f2d)
+
+![image](https://github.com/user-attachments/assets/ceeae267-6dd1-4c00-b6ad-3ee09fbe0d26)
+
 ![Network calls Screenshot](https://github.com/user-attachments/assets/683bc4d1-5556-4189-8644-51b303dac450)
 
 
