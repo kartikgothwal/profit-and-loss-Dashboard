@@ -24,6 +24,7 @@ const Heading: ({
         <h3 className="text-xl">Made By Kartik Gothwal</h3>
         <a
           href="https://kartik-gothwal.vercel.app/"
+          target="_blank"
           className="text-blue-500 underline hover:text-blue-300 text-lg"
         >
           Porfolio Link

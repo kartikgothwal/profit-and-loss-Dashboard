@@ -1,16 +1,24 @@
-import { JSX } from "react";
-import "./App.css";
-import ProfileLossReport from "./components/ui/profit-and-loss-report/ProfileLossReport";
+import { Suspense, lazy, JSX } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import BalanceSheet from "./components/ui/balance-sheet/BalanceSheet";
+import LoadingComponent from "./components/Layout/LoadingComponent";
+
+const ProfileLossReport = lazy(
+  () => import("./components/ui/profit-and-loss-report/ProfileLossReport")
+);
+const BalanceSheet = lazy(
+  () => import("./components/ui/balance-sheet/BalanceSheet")
+);
+
 function App(): JSX.Element {
   return (
     <div className="container mx-auto p-4">
       <Router>
-        <Routes>
-          <Route path="/" element={<ProfileLossReport />} />
-          <Route path="/balance-sheet" element={<BalanceSheet />} />
-        </Routes>
+        <Suspense fallback={<LoadingComponent />}>
+          <Routes>
+            <Route path="/" element={<ProfileLossReport />} />
+            <Route path="/balance-sheet" element={<BalanceSheet />} />
+          </Routes>
+        </Suspense>
       </Router>
     </div>
   );
